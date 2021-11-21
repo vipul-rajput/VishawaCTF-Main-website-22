@@ -1,5 +1,5 @@
 body {
-    background-color: transparent !important;
+    background-color: #0D0D0D !important;
     background-image: url('/backgroundImg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,15 +10,18 @@ body {
 
 .list {
 
-    border-bottom: 1px solid snow;
-    border-width: 1.5px;
+    border: 1px solid snow;
+    border-width: 2px;
     color: #e4e6e5;
     cursor: pointer;
-    padding-left: 15px;
-    border-radius: 10px;
-    margin-top: 15px;
+    padding-left: 20px;
+    border-radius: 0px;
+    margin-top: 20px;
 }
-
+.sub-heading {
+    font-size:smaller;
+    color: #4E7FFF;
+}
 .list:hover,
 .list:active,
 .list:focus {
@@ -38,14 +41,12 @@ body {
     font-weight: 100;
     font-size: 2em;
     line-height: 1.25;
-    color: white;
-    border-radius: 10px;
+    color: #efefef;
     padding: 2vw;
     width: fit-content;
     margin: auto;
     text-align: center;
-    margin-top: 70px !important;
-    background-color: rgb(25, 40, 68)
+    margin-top: 90px !important;
 }
 
 .list a {
