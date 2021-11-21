@@ -31,17 +31,33 @@ body{
 }
 .prizes-heading{
     color:#4E7FFF;
-    margin-right: 40%;
+   margin: 100%;
 }
 .prize{
-    height: 7rem;
-    width: 7rem;
+    height: 6rem;
+    width: 6rem;
     background-color: #efefef;
     border-radius: 50%;
     display:inline-flex;
     justify-content:space-around;
 }
-
+.cardf, .cardb{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.cardb{
+    background: #4E7FFF;
+    transform: rotateX(180deg);
+}
+.inner{
+    position: relative;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.prizes-dot:hover .inner{
+   transform: rotateX(-180deg);
+}
 /*
 .
 {
