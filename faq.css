@@ -22,13 +22,11 @@ body {
     font-size:smaller;
     color: #4E7FFF;
 }
-.list:hover,
-.list:active,
-.list:focus {
-    background-color: rgb(25, 40, 68);
+.list:hover {
+    background-color: #4E7FFF;
     text-decoration: none;
     border-left: 2px solid snow;
-
+    transition: 2s;
 }
 
 .question {
@@ -54,7 +52,7 @@ body {
     font-weight: 400;
     font-size: 1.5em;
     color: white;
-    transition: 0.2s;
+    transition: 1s;
 }
 
 .list a:hover {
@@ -92,7 +90,7 @@ body {
 .card-link:active,
 .card-link:focus {
     text-decoration: none;
-    color: #1ee2e7;
+    color: #4E7FFF;
     font-weight: 700;
     font-size: 25;
 }
