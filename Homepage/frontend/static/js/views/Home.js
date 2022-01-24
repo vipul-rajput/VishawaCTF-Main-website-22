@@ -36,6 +36,7 @@ async getHtml() {
 
         </div>
     </div><div class="container px-4 py-5" id="custom-cards">
+                
             <h2 class="pb-2 glitch" data-text="Co-Powered By" style="text-align: center;font-weight: 700; font-size: 4em;">Co-Powered <span style="color: #b00000;">By</span> </h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">

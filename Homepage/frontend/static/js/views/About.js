@@ -1,6 +1,5 @@
 import AbstractView from "./AbstractView.js";
 
-
 export default class extends AbstractView {
    constructor() {
        super();
@@ -9,28 +8,106 @@ export default class extends AbstractView {
 
 async getHtml() {
     return `
-         <div>
-
-             <h1 class="pb-2 glitch" data-text="About Section">About Section</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis nunc sed blandit libero volutpat sed. Posuere urna nec tincidunt praesent semper. Amet risus nullam eget felis eget nunc lobortis. Leo duis ut diam quam nulla porttitor. At risus viverra adipiscing at in tellus. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Et molestie ac feugiat sed lectus vestibulum. Sed odio morbi quis commodo odio aenean sed. Id leo in vitae turpis massa sed elementum tempus. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Eu consequat ac felis donec et odio. Viverra accumsan in nisl nisi. Amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Quis enim lobortis scelerisque fermentum dui faucibus in. Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Fringilla urna porttitor rhoncus dolor purus non. Pellentesque sit amet porttitor eget dolor morbi non arcu. A pellentesque sit amet porttitor eget. Aenean pharetra magna ac placerat vestibulum.
-
-            Scelerisque purus semper eget duis at tellus. Orci a scelerisque purus semper eget duis at tellus at. Arcu ac tortor dignissim convallis aenean et tortor. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Ornare suspendisse sed nisi lacus. Fames ac turpis egestas sed. Tortor at risus viverra adipiscing at. Augue ut lectus arcu bibendum at. Risus sed vulputate odio ut. Amet justo donec enim diam. Ornare massa eget egestas purus viverra. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Nec tincidunt praesent semper feugiat. Vulputate sapien nec sagittis aliquam malesuada bibendum. Amet nisl purus in mollis nunc sed id semper risus.
-            
-            Sit amet purus gravida quis blandit turpis cursus in. Sit amet volutpat consequat mauris nunc. Aliquam purus sit amet luctus venenatis. Ultrices sagittis orci a scelerisque purus. Nisl vel pretium lectus quam id. Sed enim ut sem viverra aliquet. Amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Tortor id aliquet lectus proin nibh nisl. Consectetur adipiscing elit ut aliquam. Ultrices vitae auctor eu augue ut lectus arcu. Diam sit amet nisl suscipit adipiscing. Sem integer vitae justo eget magna fermentum iaculis. Tempor orci dapibus ultrices in iaculis nunc sed augue.
-            
-            Sollicitudin ac orci phasellus egestas. Lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor. Mattis pellentesque id nibh tortor id. Nascetur ridiculus mus mauris vitae. Et ligula ullamcorper malesuada proin libero. Tellus elementum sagittis vitae et leo duis. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Ac turpis egestas integer eget. Diam ut venenatis tellus in. Et malesuada fames ac turpis. Aliquet bibendum enim facilisis gravida neque convallis a. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Enim sit amet venenatis urna cursus. Rutrum tellus pellentesque eu tincidunt tortor. Egestas sed sed risus pretium quam vulputate dignissim. Gravida cum sociis natoque penatibus et magnis dis parturient.
-            
-            Viverra suspendisse potenti nullam ac tortor vitae. Et pharetra pharetra massa massa. Dictumst quisque sagittis purus sit amet volutpat. Placerat vestibulum lectus mauris ultrices eros in. Arcu vitae elementum curabitur vitae. Mauris sit amet massa vitae tortor condimentum lacinia quis. Sociis natoque penatibus et magnis dis parturient montes nascetur. Nibh mauris cursus mattis molestie a iaculis. Eget nunc lobortis mattis aliquam. Et ligula ullamcorper malesuada proin libero nunc. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Vitae suscipit tellus mauris a diam maecenas sed enim. Rhoncus urna neque viverra justo nec ultrices. Enim ut sem viverra aliquet.
-            
-            Proin fermentum leo vel orci. Purus semper eget duis at. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Sed elementum tempus egestas sed sed risus pretium. Penatibus et magnis dis parturient montes nascetur ridiculus mus. Amet luctus venenatis lectus magna fringilla urna. Tempus imperdiet nulla malesuada pellentesque elit. Mauris nunc congue nisi vitae suscipit. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Arcu dictum varius duis at consectetur lorem donec massa sapien. Nunc sed augue lacus viverra vitae. Vivamus at augue eget arcu dictum varius duis at consectetur. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Suspendisse faucibus interdum posuere lorem ipsum dolor.
-            
-            Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Mollis nunc sed id semper risus. Netus et malesuada fames ac. Ac ut consequat semper viverra nam libero. Non odio euismod lacinia at quis risus sed vulputate. Rhoncus aenean vel elit scelerisque mauris. Neque vitae tempus quam pellentesque nec. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Leo integer malesuada nunc vel risus commodo. Tincidunt arcu non sodales neque sodales.
-            
-            Iaculis urna id volutpat lacus laoreet non. Sagittis aliquam malesuada bibendum arcu vitae elementum. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Neque convallis a cras semper auctor neque vitae. Sit amet porttitor eget dolor morbi non arcu risus quis. Integer malesuada nunc vel risus commodo viverra maecenas accumsan. Amet consectetur adipiscing elit pellentesque habitant morbi. Mauris sit amet massa vitae tortor condimentum lacinia. Integer enim neque volutpat ac tincidunt vitae semper quis. Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat. Eu ultrices vitae auctor eu augue. Convallis aenean et tortor at risus viverra adipiscing at in. Eu sem integer vitae justo eget magna fermentum iaculis. Sollicitudin tempor id eu nisl.
-            
-            Magna eget est lorem ipsum. Urna cursus eget nunc scelerisque viverra. Et ligula ullamcorper malesuada proin libero nunc. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Nisi scelerisque eu ultrices vitae auctor. Habitant morbi tristique senectus et netus et. Erat pellentesque adipiscing commodo elit. Lacus laoreet non curabitur gravida. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Leo duis ut diam quam. Turpis tincidunt id aliquet risus feugiat in ante metus.
-            
-            Ultricies mi eget mauris pharetra et ultrices neque. Nibh nisl condimentum id venenatis a condimentum. Consectetur purus ut faucibus pulvinar. Risus pretium quam vulputate dignissim. Orci a scelerisque purus semper eget duis. Et pharetra pharetra massa massa ultricies mi quis. Cras semper auctor neque vitae tempus quam pellentesque nec. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Tristique magna sit amet purus gravida. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Nunc id cursus metus aliquam eleifend mi in nulla posuere. Arcu dui vivamus arcu felis bibendum. Diam phasellus vestibulum lorem sed risus ultricies tristique. Nunc consequat interdum varius sit amet mattis vulputate. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Morbi quis commodo odio aenean sed adipiscing diam donec. Diam vulputate ut pharetra sit amet aliquam id diam maecenas. Felis eget nunc lobortis mattis aliquam faucibus purus in. Blandit cursus risus at ultrices mi tempus. Elit sed vulputate mi sit.</p>
+         <div class="about-us-main">
+         <h1 class="heading m-4 p-5">About VishwaCTF </h1>
+         <div class="row data">
+             <div class="col-12 content">VishwaCTF is the Flagship event of CyberCell, VIIT. At its inception, it was the
+                 first CTF from Maharashtra, India. And also, the second one from India organized independently by any
+                 college. Now, we again aim for higher heights going global with the 3rd Edition of VishwaCTF.</div>
+             <div class="properties col-6">
+                 <p class="text-center"><mark class="text-markup">Style :</mark> Jeopardy Style</p><br>
+                 <p class="text-center"><mark class="text-markup">Duration :</mark> 36 Hour Long </p><br>
+                 <p class="text-center"><mark class="text-markup">Team Participation :</mark> 1 - 4 players</p><br>
+                 <p class="text-center"><mark class="text-markup">Start time :</mark> 13th March'21 3:30PM IST</p><br>
+                 <p class="text-center"><mark class="text-markup">End time :</mark> 15th March'21 3:30AM IST</p><br>
+                 <p class="text-center"><mark class="text-markup">Timezone :</mark> IST | GMT + 05:30</p><br>
+                 <p class="text-center"><mark class="text-markup">Intended Audience :</mark> Beginners in CyberSecurity</p>
+                 <br>
+             </div>
+         </div>
+         <div class="container">
+             <h1> Prizes</h1>
+             <h2>lorem ipsum dimsum i am bhuka i need maggi</h2>
+             <div class="row">
+                 <div class="col">
+                     <div class="card">
+                         <div class="inner-box">
+                             <div class="card-front front-1">
+                             </div>
+                             <div class="card-back">
+                                 <p>5-10</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col">
+                     <div class="card">
+                         <div class="inner-box">
+                             <div class="card-front front-2">
+                             </div>
+                             <div class="card-back">
+                                 <p>Card Backside</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col">
+                     <div class="card">
+                         <div class="inner-box">
+                             <div class="card-front front-3">
+     
+                             </div>
+                             <div class="card-back">
+                                 <p>5-10</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- the name and designation of sponsers -->
+                 <div class="col">
+                     <div class="card">
+                         <div class="inner-box">
+                             <div class="card-front front-4">
+     
+                             </div>
+                             <div class="card-back">
+                                 <p>5-10</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col">
+                     <div class="card">
+                         <div class="inner-box">
+                             <div class="card-front front-5">
+     
+                             </div>
+                             <div class="card-back">
+                                 <p>5-10</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col">
+                     <div class="card">
+                         <div class="inner-box">
+                             <div class="card-front front-6">
+     
+                             </div>
+                             <div class="card-back">
+                                 <p>5-10</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     
+         <h2 class="heading prizes-heading m-4 p-2">Discounted cyber security internships with BluefireRedteam to the Top
+             Teams.</h2>
+         <h2 class="heading prizes-heading m-5 p-1">2 T-Shorts & Swags for the Top 5 teams in the Indian territory</h2>
+     
+         </div>
          </div>
     `;}
 }
